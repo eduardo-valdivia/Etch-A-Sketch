@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Etch-A-Sletch</title>
     <link rel="stylesheet" href="style.css">
-    <script src="srcipt.js"></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div class="header" id="title">
@@ -14,17 +14,11 @@
     </div>
     
     <div class="main-container" id="main">
-        <div class="grid-container">
-            This is the grid lol
-        </div>
+        <div id="grid"></div>
         
         <div class="btn-container">
-            <button type="button">Choose color!</button>
-            <button type="button">Color Mode!</button>
-            <button type="button">Clear!</button>
-            <div class="slide-container">
-                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-            </div>
+            <button type="button" class="eraser">Eraser!</button>
+            <button type="button" class="clearBtn">Clear!</button>
         </div>
 
     </div>
